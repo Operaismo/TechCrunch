@@ -17,12 +17,17 @@
 	clear: both;
 }
 
+@font-face {
+  font-family: AktivGrotesk;
+  src: url('fonts/AktivGrotesk-Regular.otf');
+}
+
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: AktivGrotesk, sans-serif;
 }
 
 
@@ -32,14 +37,24 @@ body {
 
 /* HEADER */
 header {
-  width: 10%;
+  width: 15%;
   float: left;
   position: fixed;
 }
 
+/* navbar-important */
 .logo {
   max-width: 80px;
   max-height: 40px;
+}
+
+.join-tc {
+  font-weight: bold;
+  color: #fdc006;
+}
+
+.join-tc:hover {
+  color: #dca946;
 }
 
 .header-content {
@@ -47,7 +62,7 @@ header {
 }
 
 .content-container {
-  width: 90%;
+  width: 85%;
   float: right;
 }
 
