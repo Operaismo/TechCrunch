@@ -90,6 +90,12 @@ a:hover {
 /* MAIN CONTENT: TOP */
 
 /* MAIN CONTENT: LATEST */
+hr {
+  clear: both;
+}
+.latest {
+  width: 100%;
+}
 .latest-img {
   max-width: 294px;
   max-height: 157px;
@@ -98,6 +104,11 @@ a:hover {
 .tc-plus {
   max-width: 60px;
   max-height: 30px;
+}
+
+.title-col, .p-col, .img-col {
+  width: 33.3333%;
+  float: left;
 }
 
 /* FOOTER */
