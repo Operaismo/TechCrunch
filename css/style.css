@@ -32,7 +32,9 @@ body {
 
 /* HEADER */
 header {
-
+  width: 10%;
+  float: left;
+  position: fixed;
 }
 
 .logo {
@@ -40,13 +42,53 @@ header {
   max-height: 40px;
 }
 
-hr {
+.header-content {
   display: none;
 }
 
-footer {
-
+.content-container {
+  width: 90%;
+  float: right;
 }
+
+a {
+  font-size: 22px;
+  color: #777;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00a562;
+}
+
+/* MAIN CONTENT: TOP */
+
+/* MAIN CONTENT: LATEST */
+.latest-img {
+  max-width: 294px;
+  max-height: 157px;
+}
+
+.tc-plus {
+  max-width: 60px;
+  max-height: 30px;
+}
+
+/* FOOTER */
+/* footer {
+
+} */
 
 /******************************************
 /* ADDITIONAL STYLES
