@@ -90,12 +90,19 @@ a:hover {
 
 /* MAIN CONTENT: TOP */
 .main-story {
-  width: 66.6667%;
+  width: 60%;
   float: left;
 }
 
+.main-img {
+  width: 100%;
+  height: 100%;
+  max-width: 598px;
+  max-height: 348px;
+}
+
 .main-articles {
-  width: 33.3333%;
+  width: 40%;
   float: left;
 }
 
@@ -103,7 +110,7 @@ a:hover {
 hr {
   clear: both;
 }
-.latest {
+.main-top, .latest {
   width: 100%;
 }
 .latest-img {
