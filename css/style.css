@@ -59,6 +59,7 @@ header {
 
 .header-content {
   display: none;
+  clear: both;
 }
 
 .content-container {
@@ -88,6 +89,15 @@ a:hover {
 }
 
 /* MAIN CONTENT: TOP */
+.main-story {
+  width: 66.6667%;
+  float: left;
+}
+
+.main-articles {
+  width: 33.3333%;
+  float: left;
+}
 
 /* MAIN CONTENT: LATEST */
 hr {
@@ -110,7 +120,12 @@ hr {
 
 .title-col, .p-col, .img-col {
   width: 33.3333%;
+  padding: 1em 1em 1em 1em;
   float: left;
+}
+
+.img-col {
+  margin: auto 0;
 }
 
 /* FOOTER */
